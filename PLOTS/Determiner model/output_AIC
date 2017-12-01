@@ -1,0 +1,6 @@
+> fit.gamma$aic
+[1] 3384.666
+> fit.weibull$aic
+[1] 3289.618
+> fit.normal$aic
+[1] 3288.987
