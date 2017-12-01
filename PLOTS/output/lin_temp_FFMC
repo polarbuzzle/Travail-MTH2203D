@@ -1,0 +1,19 @@
+> summary(linMod)
+
+Call:
+lm(formula = FFMC ~ temp, data = mesDonnees)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-66.329  -0.713   0.617   1.830   8.512 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 82.89560    0.74672  111.01   <2e-16 ***
+temp         0.41024    0.03779   10.86   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.985 on 515 degrees of freedom
+Multiple R-squared:  0.1862,	Adjusted R-squared:  0.1846 
+F-statistic: 117.8 on 1 and 515 DF,  p-value: < 2.2e-16
