@@ -2,7 +2,7 @@ library(fitdistrplus)
 library(logspline)
 
 Donnees <- read.csv("/home/samuel/Desktop/R/forestfires.csv", header = TRUE, sep = ",", dec = ".")
-variable <- Donnees$temp
+variable <- Donnees$wind
 
 #Pour determiner quel model semble marcher
 descdist(variable, discrete = FALSE)
